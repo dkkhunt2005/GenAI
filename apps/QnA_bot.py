@@ -6,7 +6,6 @@ import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import StrOutputParser
 
-
 llm = ChatGoogleGenerativeAI(model='gemini-3.5-flash-lite').bind(
     automatic_function_calling={'disable': True})
 
