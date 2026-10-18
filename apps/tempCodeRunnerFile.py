@@ -1,1 +1,1 @@
-esult)
+query = st.chat_input('Ask Anything....')
